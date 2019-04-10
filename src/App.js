@@ -10,7 +10,6 @@ import Home from './home'
 import DetailBuildings from './buildings/container/detail'
 
 const AppRouter = () => {
-  console.log('wkwkw', process.env)
   return (
     <Provider store={store}>
       <Router>
